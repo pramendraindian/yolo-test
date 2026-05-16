@@ -10,7 +10,8 @@ model = YOLO('E:\\GIT\\yolo-test\\runs\\detect\\train\\weights\\best.pt')
 # Example image URL from Ultralytics docs
 source_image = 'https://ultralytics.com/images/bus.jpg'
 source_image = 'https://citizen.goapolice.gov.in/documents/10184/3819336/Trafficking_Day_3.JPG'  # Local image path
-
+source_image = 'https://as2.ftcdn.net/v2/jpg/15/12/38/37/1000_F_1512383790_eIFuZzMS7yzxVbwnreA0yalN12SWlxqy.jpg'  # Local image path
+source_image = 'https://www.shutterstock.com/image-photo/big-male-loin-600w-1030573348.jpg'  # Local image path
 # Run inference
 results = model.predict(source=source_image, save=True, conf=0.25)
 
