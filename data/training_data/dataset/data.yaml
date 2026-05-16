@@ -1,7 +1,0 @@
-names:
-- cat
-- dog
-- bird
-nc: 3
-train: E:\GIT\yolo-test\data\training_data\dataset\images/train
-val: E:\GIT\yolo-test\data\training_data\dataset\images/val
