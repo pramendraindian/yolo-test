@@ -26,3 +26,5 @@ psutil  # system utilization
 thop  # FLOPs computation
 streamlit
 wget
+yolov5
+ultralytics
